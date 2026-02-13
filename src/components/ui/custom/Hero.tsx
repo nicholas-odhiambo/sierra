@@ -6,13 +6,12 @@ import {
   GridItem,
   Text,
   Image,
-  Flex,
 } from "@chakra-ui/react";
 
 const Hero = () => {
   return (
-    <Box bgColor="#b3489ddd">
-      <Container maxW="6xl" fluid pt="20">
+    <Box background="linear-gradient(to right,  #fd35e2, #ff791a)" minH="100vh">
+      <Container maxW="6xl" pt="20">
         <Grid templateColumns="repeat(auto-fit, minmax(250px, 1fr))" gap={6}>
           <GridItem h="400px">
             <Text
@@ -35,7 +34,7 @@ const Hero = () => {
             <Box></Box>
           </GridItem>
           <GridItem h="400px">
-            <Image minH="45 vh" src="/images/sierra-chatbot-4.png" />
+            <Image minH="" src="/images/sierra-chatbot-4.png" />
           </GridItem>
         </Grid>
       </Container>
