@@ -11,7 +11,7 @@ import {
 const Hero = () => {
   return (
     <Box background="linear-gradient(to right,  #fd35e2, #ff791a)" minH="100vh">
-      <Container maxW="6xl" pt="20">
+      <Container maxW="6xl" pt="40">
         <Grid templateColumns="repeat(auto-fit, minmax(250px, 1fr))" gap={6}>
           <GridItem h="400px">
             <Text
@@ -31,10 +31,23 @@ const Hero = () => {
             <Button px="15" marginTop="10">
               View Pricing plans{" "}
             </Button>
-            <Box></Box>
+            <Box pt="9">
+              <Grid
+                templateColumns="repeat(auto-fit, minmax(250px, 1fr))"
+                gap={1}
+              >
+                <GridItem>
+                  <Text as="p" color="#ffffff">
+                    {" "}
+                    Recommended by visionary startups and industry leaders.
+                  </Text>
+                </GridItem>
+                <GridItem></GridItem>
+              </Grid>
+            </Box>
           </GridItem>
-          <GridItem h="400px">
-            <Image minH="" src="/images/sierra-chatbot-4.png" />
+          <GridItem>
+            <Image minH="40vh" src="/images/sierra-chatbot-4.png" />
           </GridItem>
         </Grid>
       </Container>
