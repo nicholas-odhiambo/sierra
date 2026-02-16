@@ -1,12 +1,5 @@
-import {
-  Box,
-  Button,
-  Container,
-  Grid,
-  GridItem,
-  Text,
-  Image,
-} from "@chakra-ui/react";
+import { Box, Button, Container, Grid, GridItem, Text } from "@chakra-ui/react";
+// import sierraChatbot from "../../images/sierra-chatbot-4.png"
 
 export const Hero = () => {
   return (
@@ -46,9 +39,7 @@ export const Hero = () => {
               </Grid>
             </Box>
           </GridItem>
-          <GridItem>
-            <Image minH="40vh" src="/images/sierra-chatbot-4.png" />
-          </GridItem>
+          <GridItem></GridItem>
         </Grid>
       </Container>
     </Box>
