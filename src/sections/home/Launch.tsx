@@ -1,7 +1,7 @@
 import { Box, Button, Container, Grid, GridItem, Text } from "@chakra-ui/react";
 import LaunchCard from "./LaunchCard";
 
-const Launch = () => {
+export const Launch = () => {
   return (
     <Box background="bg.muted" minH="100vh">
       <Container maxW="6xl" pt="40px">
@@ -59,5 +59,3 @@ const Launch = () => {
     </Box>
   );
 };
-
-export default Launch;

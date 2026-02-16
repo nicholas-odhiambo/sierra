@@ -1,14 +1,9 @@
-import HeroLive from "@/components/ui/custom/HeroLive";
-import Hero from "../components/ui/custom/Hero";
-import Launch from "../components/ui/custom/Launch";
-const Home = () => {
+import { Hero } from "@/sections/home";
+
+export const Home = () => {
   return (
-    <>
+    <div>
       <Hero />
-      <Launch />
-      <HeroLive />
-    </>
+    </div>
   );
 };
-
-export default Home;

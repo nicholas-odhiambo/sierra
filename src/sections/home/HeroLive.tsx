@@ -1,6 +1,6 @@
 import { Box, Container, Grid, GridItem } from "@chakra-ui/react";
 
-const HeroLive = () => {
+export const HeroLive = () => {
   return (
     <>
       <Box background="bg.muted" minH="100vh">
@@ -14,5 +14,3 @@ const HeroLive = () => {
     </>
   );
 };
-
-export default HeroLive;

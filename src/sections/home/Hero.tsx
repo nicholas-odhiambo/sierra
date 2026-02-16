@@ -8,7 +8,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 
-const Hero = () => {
+export const Hero = () => {
   return (
     <Box background="linear-gradient(to right,  #fd35e2, #ff791a)" minH="100vh">
       <Container maxW="6xl" pt="40">
@@ -54,5 +54,3 @@ const Hero = () => {
     </Box>
   );
 };
-
-export default Hero;

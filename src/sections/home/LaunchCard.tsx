@@ -6,7 +6,7 @@ type LaunchProps = {
   description: string;
 };
 
-const LaunchCard = ({ image, title, description }: LaunchProps) => {
+export const LaunchCard = ({ image, title, description }: LaunchProps) => {
   return (
     <>
       <Box
@@ -27,5 +27,3 @@ const LaunchCard = ({ image, title, description }: LaunchProps) => {
     </>
   );
 };
-
-export default LaunchCard;
