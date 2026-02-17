@@ -4,7 +4,7 @@ import chatRules from "../../images/chat-rules.png";
 export const HeroChatRules = () => {
   return (
     <>
-      <Box background="bg.muted" py={{ base: "100px", lg: "150px" }}>
+      <Box background="white" py={{ base: "100px", lg: "150px" }}>
         <Container maxW="6xl">
           <Grid
             templateColumns={{ base: "1fr", lg: "1fr 1fr" }}
@@ -31,13 +31,13 @@ export const HeroChatRules = () => {
             </GridItem>
             <GridItem>
               <Box>
-                <Text fontSize="6xl" fontWeight="bold" mt={2}>
-                  Real-time chat, exceptional client experiences
+                <Text fontSize="5xl" fontWeight="bold" mt={2}>
+                  Sierra is more than a chatbot software for modern websites
                 </Text>
 
                 <Text mt={4} color="gray.400" lineHeight="tall">
-                  Offer live chat support to your customers. Our chatbot
-                  seamlessly transitions to human agents when needed.
+                  Customize it to align with your brand's personality. Tailor
+                  the responses, and interactions to fit your business identity.
                 </Text>
               </Box>
             </GridItem>

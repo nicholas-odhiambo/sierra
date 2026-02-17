@@ -1,4 +1,10 @@
-import { Hero, HeroChatRules, HeroFeatures, HeroLive } from "@/sections/home";
+import {
+  Hero,
+  HeroChatRules,
+  HeroFeatures,
+  HeroIntegration,
+  HeroLive,
+} from "@/sections/home";
 
 export const Home = () => {
   return (
@@ -7,6 +13,7 @@ export const Home = () => {
       <HeroFeatures />
       <HeroLive />
       <HeroChatRules />
+      <HeroIntegration />
     </div>
   );
 };
