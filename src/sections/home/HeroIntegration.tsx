@@ -1,3 +1,4 @@
+import { IntegrationsCards } from "@/components/IntegrationsCards";
 import { Box, Button, Container, Grid, GridItem, Text } from "@chakra-ui/react";
 
 export const HeroIntegration = () => {
@@ -22,16 +23,30 @@ export const HeroIntegration = () => {
             </GridItem>
             <GridItem>
               <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={6}>
-                <Box background="white" rounded="2xl"></Box>
-                <Box background="white" rounded="2xl">
-                  1
-                </Box>
-                <Box background="white" rounded="2xl">
-                  1
-                </Box>
-                <Box background="white" rounded="2xl">
-                  1
-                </Box>
+                <IntegrationsCards
+                  icon=""
+                  title="Browser services"
+                  text="Automate email responses, ensuring your customers receive relevant information"
+                  button="Learn more"
+                />
+                <IntegrationsCards
+                  icon=""
+                  title="Intercom helpdesk"
+                  text="Engage customers directly on their preferred messaging platform."
+                  button="Learn more"
+                />
+                <IntegrationsCards
+                  icon=""
+                  title="Asana software"
+                  text="Coordinate tasks and projects seamlessly, enhancing team productivity."
+                  button="Learn more"
+                />
+                <IntegrationsCards
+                  icon=""
+                  title="Google Drive app"
+                  text="Access and share documents effortlessly for better customer support."
+                  button="Learn more"
+                />
               </Grid>
             </GridItem>
           </Grid>
