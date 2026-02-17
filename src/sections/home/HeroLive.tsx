@@ -1,4 +1,12 @@
-import { Box, Container, Grid, GridItem, Image, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Container,
+  Grid,
+  GridItem,
+  Image,
+  Text,
+} from "@chakra-ui/react";
 import liveChat from "../../images/live-chat.jpg";
 
 export const HeroLive = () => {
@@ -17,10 +25,11 @@ export const HeroLive = () => {
                   Real-time chat, exceptional client experiences
                 </Text>
 
-                <Text mt={4} color="gray.400" lineHeight="tall">
+                <Text mt={4} color="gray.400" lineHeight="tall" py={5}>
                   Offer live chat support to your customers. Our chatbot
                   seamlessly transitions to human agents when needed.
                 </Text>
+                <Button>Discover more</Button>
               </Box>
             </GridItem>
 

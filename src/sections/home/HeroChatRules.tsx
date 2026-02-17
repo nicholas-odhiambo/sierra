@@ -1,4 +1,12 @@
-import { Box, Container, Grid, GridItem, Image, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Container,
+  Grid,
+  GridItem,
+  Image,
+  Text,
+} from "@chakra-ui/react";
 import chatRules from "../../images/chat-rules.png";
 
 export const HeroChatRules = () => {
@@ -35,10 +43,11 @@ export const HeroChatRules = () => {
                   Sierra is more than a chatbot software for modern websites
                 </Text>
 
-                <Text mt={4} color="gray.400" lineHeight="tall">
+                <Text mt={4} color="gray.400" lineHeight="tall" py={5}>
                   Customize it to align with your brand's personality. Tailor
                   the responses, and interactions to fit your business identity.
                 </Text>
+                <Button>Discover more </Button>
               </Box>
             </GridItem>
           </Grid>
