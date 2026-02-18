@@ -27,7 +27,7 @@ export const HeroCardFeatures = ({
             <image> {image}</image>
           </Box>
         </Center>
-        <Box display="flex" flexDirection="column">
+        <Box display="flex" flexDirection="column" h="160px" rounded="2xl">
           <Text
             fontWeight="semibold"
             fontSize="2xl"
