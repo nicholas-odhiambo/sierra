@@ -44,8 +44,9 @@ export const HeroChatRules = () => {
                 </Text>
 
                 <Text mt={4} color="gray.400" lineHeight="tall" py={5}>
-                  Customize it to align with your brand's personality. Tailor
-                  the responses, and interactions to fit your business identity.
+                  Customize it to align with your brand's <br /> personality.
+                  Tailor the responses, and <br /> interactions to fit your
+                  business identity.
                 </Text>
                 <Button>Discover more </Button>
               </Box>

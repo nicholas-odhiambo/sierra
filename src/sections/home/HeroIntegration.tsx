@@ -20,8 +20,8 @@ export const HeroIntegration = () => {
                 Easy integrations, effortless operations
               </Text>
               <Text py={5}>
-                Unlock the potential of your business with our website creation
-                tool. Elevate your online presence now.
+                Unlock the potential of your business <br /> with our website
+                creation tool. Elevate <br /> your online presence now.
               </Text>
               <Button>Explore Integrations</Button>
             </GridItem>

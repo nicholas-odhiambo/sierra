@@ -9,10 +9,13 @@ export const HeroPricing = () => {
         <Container maxW="6xl">
           <Box>
             <Tags title="Flexible pricing" />
-            <Text textAlign="center">Flexible pricing, exceptional value</Text>
-            <Text textAlign="center">
+            <Text textAlign="center" textStyle="4xl" fontWeight="bold">
+              Flexible pricing, exceptional value
+            </Text>
+            <Text textAlign="center" py={5} color="gray.500" fontSize="lg">
               Whether you're an individual, a small team, or a growing
-              enterprise, we have a plan that aligns perfectly with your goals.
+              enterprise, <br /> we have a plan that aligns perfectly with your
+              goals.
             </Text>
           </Box>
           <Center>Monthly</Center>

@@ -26,8 +26,8 @@ export const HeroLive = () => {
                 </Text>
 
                 <Text mt={4} color="gray.400" lineHeight="tall" py={5}>
-                  Offer live chat support to your customers. Our chatbot
-                  seamlessly transitions to human agents when needed.
+                  Offer live chat support to your customers. Our <br /> chatbot
+                  seamlessly transitions to human <br /> agents when needed.
                 </Text>
                 <Button>Discover more</Button>
               </Box>

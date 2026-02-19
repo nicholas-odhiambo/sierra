@@ -13,8 +13,8 @@ export const HeroFeatures = () => {
           </Text>
           <Text color="gray.400" textAlign="center" py={5}>
             {" "}
-            Unlock unparalleled benefits for your business with our services.
-            Reach more customers, save time and money.
+            Unlock unparalleled benefits for your business with our <br />{" "}
+            services. Reach more customers, save time and money.
           </Text>
         </Box>
 

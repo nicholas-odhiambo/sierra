@@ -15,7 +15,7 @@ export const HeroIntegrationsCards = ({
 }: CardsIntegrations) => {
   return (
     <>
-      <Box background="white" rounded="2xl" pl="4" pt="2">
+      <Box background="white" rounded="2xl" pl="4" p="30px">
         <Image src={icon} w={{ base: "60px" }} />
         <Text fontWeight="bolder" fontSize="medium" py={3}>
           {title}
