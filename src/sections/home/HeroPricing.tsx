@@ -22,8 +22,9 @@ export const HeroPricing = () => {
           <Box></Box>
           <Box>
             <Grid
-              templateColumns={{ base: "repeat(3, 1fr)", lg: "repeat(3, 1fr)" }}
-              gap={10}
+              templateColumns={{ base: "repeat(1, 1fr)", lg: "repeat(3, 1fr)" }}
+              gap={6}
+              alignItems="stretch"
             >
               <Box>
                 <HeroPricingCards

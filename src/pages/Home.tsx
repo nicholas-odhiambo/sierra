@@ -5,6 +5,8 @@ import {
   HeroIntegration,
   HeroLive,
   HeroPricing,
+  HeroStrategy,
+  HeroTestimonials,
 } from "@/sections/home";
 
 export const Home = () => {
@@ -16,6 +18,8 @@ export const Home = () => {
       <HeroChatRules />
       <HeroIntegration />
       <HeroPricing />
+      <HeroStrategy />
+      <HeroTestimonials />
     </div>
   );
 };
