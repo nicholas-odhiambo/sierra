@@ -3,7 +3,7 @@ import { Box, Button, Container, Grid, GridItem, Text } from "@chakra-ui/react";
 export const HeroStrategy = () => {
   return (
     <>
-      <Box background="white" py={{ base: "100px", lg: "150px" }}>
+      <Box background="white" py={{ base: "80px", lg: "110px" }}>
         <Container
           maxW="6xl"
           background="linear-gradient(to right,  #fd35e2, #ff791a)"
@@ -15,13 +15,13 @@ export const HeroStrategy = () => {
                 {" "}
                 Data-driven insights, <br /> smarter decisions
               </Text>
-              <Text color="white">
+              <Text color="white" py={10}>
                 Access detailed analytics and reports <br /> to monitor chatbot
                 performance.
               </Text>
               <Button>Discover more</Button>
             </GridItem>
-            <GridItem>gjvggffdddttjvg dfdfdyfghgufu dyftfugugyyy</GridItem>
+            <GridItem></GridItem>
           </Grid>
         </Container>
       </Box>
