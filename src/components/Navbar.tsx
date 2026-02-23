@@ -1,13 +1,21 @@
-import { Box, Button, Container, Flex, Spacer } from "@chakra-ui/react";
+import { Box, Button, Container, Flex, Image, Spacer } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
   return (
     <>
-      <Box background="white" position="fixed" w="100%" px={6} py={4}>
+      <Box
+        background="white"
+        position="fixed"
+        w="100%"
+        px={6}
+        py={4}
+        top={0}
+        zIndex="sticky"
+      >
         <Container>
           <Flex align="center">
-            <Box>LOGO</Box>
+            <Box>LOGO </Box>
 
             <Spacer />
 

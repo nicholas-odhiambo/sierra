@@ -6,7 +6,7 @@ export const Hero = () => {
     <Box
       background="linear-gradient(to right,  #fd35e2, #ff791a)"
       minH="100vh"
-      pt="80px"
+      pt={{ base: "60px", md: "80px" }}
     >
       <Container maxW="6xl" pt="40">
         <Grid templateColumns="repeat(auto-fit, minmax(250px, 1fr))" gap={6}>
