@@ -15,11 +15,20 @@ export const HeroTestimonialsCards = ({
 }: HeroTestimonialsCards) => {
   return (
     <div>
-      <Box>
-        <Text>{company}</Text>
-        <Text>{testimonial}</Text>
-        <Text>{name}</Text>
-        <Text>{title}</Text>
+      <Box background="gray.100" rounded={6} h="250px">
+        <Text textAlign="center" alignItems="center" fontWeight="bolder" pt={3}>
+          {company}
+        </Text>
+        <Text textAlign="center" alignItems="center" py={5}>
+          {" "}
+          {testimonial}
+        </Text>
+        <Text textAlign="center" alignItems="center" fontWeight="bolder">
+          {name}
+        </Text>
+        <Text textAlign="center" alignItems="center">
+          {title}
+        </Text>
       </Box>
     </div>
   );

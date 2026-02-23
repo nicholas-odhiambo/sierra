@@ -32,6 +32,7 @@ export const HeroTestimonials = () => {
             templateColumns={{ base: "repeat(1, 1fr)", lg: "repeat(3, 1fr)" }}
             gap={6}
             alignItems="stretch"
+            pt={10}
           >
             <HeroTestimonialsCards
               company="Trustpilot "
