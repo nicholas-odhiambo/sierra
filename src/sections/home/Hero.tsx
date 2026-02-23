@@ -3,7 +3,11 @@ import { Box, Button, Container, Grid, GridItem, Text } from "@chakra-ui/react";
 
 export const Hero = () => {
   return (
-    <Box background="linear-gradient(to right,  #fd35e2, #ff791a)" minH="100vh">
+    <Box
+      background="linear-gradient(to right,  #fd35e2, #ff791a)"
+      minH="100vh"
+      pt="80px"
+    >
       <Container maxW="6xl" pt="40">
         <Grid templateColumns="repeat(auto-fit, minmax(250px, 1fr))" gap={6}>
           <GridItem h="400px">
