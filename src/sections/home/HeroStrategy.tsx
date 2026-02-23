@@ -3,7 +3,7 @@ import { Box, Button, Container, Grid, GridItem, Text } from "@chakra-ui/react";
 export const HeroStrategy = () => {
   return (
     <>
-      <Box background="white">
+      <Box background="white" py={{ base: "100px", lg: "150px" }}>
         <Container
           maxW="6xl"
           background="linear-gradient(to right,  #fd35e2, #ff791a)"

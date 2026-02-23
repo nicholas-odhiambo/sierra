@@ -7,3 +7,4 @@ export { HeroIntegration } from "@/sections/home/HeroIntegration";
 export { HeroPricing } from "@/sections/home/HeroPricing";
 export { HeroStrategy } from "@/sections/home/HeroStrategy";
 export { HeroTestimonials } from "@/sections/home/HeroTestimonials";
+export { HeroEnd } from "@/sections/home/HeroEnd";

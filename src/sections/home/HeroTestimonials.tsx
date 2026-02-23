@@ -5,7 +5,7 @@ import { Box, Container, Grid, Text } from "@chakra-ui/react";
 export const HeroTestimonials = () => {
   return (
     <>
-      <Box background="white">
+      <Box background="white" py={{ base: "100px", lg: "150px" }}>
         <Container maxW="6xl" py={10}>
           <Box>
             <Tags title="Customer Testimonials" />

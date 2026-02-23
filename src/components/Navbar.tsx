@@ -1,6 +1,6 @@
 import { Box, Button, Container, Flex, Image, Spacer } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
-
+import LOGO from "../images/sierra-logo-white.svg";
 export const Navbar = () => {
   return (
     <>
@@ -15,7 +15,9 @@ export const Navbar = () => {
       >
         <Container>
           <Flex align="center">
-            <Box>LOGO </Box>
+            <Box>
+              <Image src={LOGO} h="40px" />
+            </Box>
 
             <Spacer />
 
