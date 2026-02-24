@@ -1,4 +1,12 @@
-import { Box, Container, Grid, GridItem, Image, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Container,
+  Grid,
+  GridItem,
+  Image,
+  Text,
+} from "@chakra-ui/react";
 import SierraChatbot from "../../images/sierra-chatbot-4.png";
 
 export const FeaturesLanding = () => {
@@ -38,16 +46,29 @@ export const FeaturesLanding = () => {
         </Box>
         <Box>
           <Container background="gray.100" maxW="6xl" rounded={5} py={10}>
-            <Grid templateColumns={{ base: "1fr", lg: "1fr 1fr" }} gap={6}>
+            <Grid
+              templateColumns={{ base: "1fr", lg: "1fr 1fr" }}
+              gap={{ base: "10", lg: "12" }}
+            >
               <GridItem>
-                <Text>Automate sales and support with chatbots</Text>
-                <Text>
+                <Button
+                  rounded={20}
+                  background="#fff"
+                  color="black"
+                  outline="black"
+                >
+                  Launch with ease
+                </Button>
+                <Text fontWeight="bolder" fontSize="4xl">
+                  Automate sales <br /> and support <br /> with chatbots
+                </Text>
+                <Text py={5} color="gray.500">
                   Unlock benefits for your business with our services. Reach
                   more customers, save time and money.
                 </Text>
               </GridItem>
-              <GridItem background="green">
-                <Image src={SierraChatbot} />
+              <GridItem>
+                <Image src={SierraChatbot} h="max-content" w="max-content" />
               </GridItem>
             </Grid>
           </Container>
