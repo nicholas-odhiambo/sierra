@@ -41,15 +41,15 @@ export const ChatFeature = () => {
                   Offer live chat support to your customers. Our chatbot
                   seamlessly transitions to human agents when needed.
                 </Text>
-                <Box w="100%" background="gray.200">
+                <Box w="100%" background="gray.100">
                   <Text> Real-Time Tracking</Text>
                   <Text> Monitor activities and conversations instantly</Text>
                 </Box>
-                <Box w="100%" background="gray.200">
+                <Box w="100%" background="gray.100">
                   <Text>Performance Analytics</Text>
                   <Text> Identify top performers and optimize.</Text>
                 </Box>
-                <Box w="100%" background="gray.200">
+                <Box w="100%" background="gray.100">
                   <Text>Payout automation </Text>
                   <Text> Seamless and timely transactions </Text>
                 </Box>
@@ -74,15 +74,15 @@ export const ChatFeature = () => {
                   Tailor the responses, and interactions to fit your business
                   identity
                 </Text>
-                <Box w="100%" background="gray.200" pt={5}>
+                <Box w="100%" background="gray.100" pt={5}>
                   <Text> Powerful task management</Text>
                   <Text> Stay organinized, collaborate seamlessly</Text>
                 </Box>
-                <Box w="100%" background="gray.200">
+                <Box w="100%" background="gray.100">
                   <Text> Intuitive project overview</Text>
                   <Text> Streamline communication, track progress</Text>
                 </Box>
-                <Box w="100%" background="gray.200">
+                <Box w="100%" background="gray.100">
                   <Text> Analyze and track traffic </Text>
                   <Text> unlock insights and optimize strategies.</Text>
                 </Box>

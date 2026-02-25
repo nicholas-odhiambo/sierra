@@ -1,5 +1,5 @@
 import { Box, Container, Grid, GridItem, Text } from "@chakra-ui/react";
-import { HeroCardFeatures } from "./HeroCardFeatures";
+import { HeroCardFeatures } from "../../components/HeroCardFeatures";
 import { Tags } from "@/components/Tags";
 
 export const HeroFeatures = () => {
@@ -9,7 +9,7 @@ export const HeroFeatures = () => {
         <Box>
           <Tags title="Launch with ease" />
           <Text textAlign="center" fontSize="4xl" fontWeight="bold" py={5}>
-            Automate sales and support with chatbots{" "}
+            Automate sales and support <br /> with chatbots{" "}
           </Text>
           <Text color="gray.400" textAlign="center" py={5}>
             {" "}

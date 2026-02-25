@@ -1,13 +1,14 @@
 import { Tags } from "@/components/Tags";
 import { Box, Button, Container, Text } from "@chakra-ui/react";
 
-export const HeroEnd = () => {
+export const Footer = () => {
   return (
     <>
       <Box
         background="linear-gradient(to right,  #fd35e2, #ff791a)"
         py={{ base: "100px", lg: "150px" }}
         minH=""
+        mt="40px"
       >
         <Container maxW="6xl">
           <Tags title="Launch with ease" />

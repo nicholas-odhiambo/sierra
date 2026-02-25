@@ -27,17 +27,23 @@ export const HeroCardFeatures = ({
             <image> {image}</image>
           </Box>
         </Center>
-        <Box display="flex" flexDirection="column" h="160px" rounded="2xl">
+        <Box display="flex" flexDirection="column" h="150px" rounded="4xl">
           <Text
             fontWeight="semibold"
             fontSize="2xl"
+            alignItems="center"
             textAlign="center"
             py={5}
             flex="1"
           >
             {title}
           </Text>
-          <Text fontSize="lg" color="gray.400" textAlign="centre" flex="1">
+          <Text
+            color="gray.400"
+            alignItems="center"
+            textAlign="centre"
+            flex="1"
+          >
             {description}{" "}
           </Text>
         </Box>

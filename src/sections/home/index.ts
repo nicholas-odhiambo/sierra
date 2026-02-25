@@ -1,5 +1,5 @@
 export { Hero } from "@/sections/home/Hero";
-export { HeroCardFeatures } from "@/sections/home/HeroCardFeatures";
+export { HeroCardFeatures } from "@/components/HeroCardFeatures";
 export { HeroFeatures } from "@/sections/home/HeroFeatures";
 export { HeroLive } from "@/sections/home/HeroLive";
 export { HeroChatRules } from "@/sections/home/HeroChatRules";
@@ -7,4 +7,3 @@ export { HeroIntegration } from "@/sections/home/HeroIntegration";
 export { HeroPricing } from "@/sections/home/HeroPricing";
 export { HeroStrategy } from "@/sections/home/HeroStrategy";
 export { HeroTestimonials } from "@/sections/home/HeroTestimonials";
-export { HeroEnd } from "@/sections/home/HeroEnd";

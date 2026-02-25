@@ -1,7 +1,6 @@
 import {
   Hero,
   HeroChatRules,
-  HeroEnd,
   HeroFeatures,
   HeroIntegration,
   HeroLive,
@@ -21,7 +20,6 @@ export const Home = () => {
       <HeroPricing />
       <HeroStrategy />
       <HeroTestimonials />
-      <HeroEnd />
     </div>
   );
 };
