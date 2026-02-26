@@ -1,20 +1,36 @@
 import type { PricingPackage } from "@/types/pricing";
-import { Box, Button, List, Text } from "@chakra-ui/react";
+import { Box, Button, Center, List, ListItem, Text } from "@chakra-ui/react";
 
 type PricingProps = {
   data: PricingPackage;
 };
 
 export const PricingCards = ({ data }: PricingProps) => {
-  const { name, description, price, package } = data;
+  const { name, description, price, benefits } = data;
   return (
     <>
-      <Box background="gray.100" rounded="3xl" p="4px">
-        <Text> {name}</Text>
+      <Box background="gray.100" p={10} rounded="2xl">
+        <Text fontWeight="bolder" fontSize="lg">
+          {" "}
+          {name}
+        </Text>
         <Text>{description}</Text>
-        <Text>{price}</Text>
+        <Text fontWeight="bolder">
+          <Text as="sup">$</Text>
+          {price}
+          <Text as="span" color="gray.500">
+            /month
+          </Text>
+        </Text>
+        <List>
+          {benefits.map((pack, index) => (
+            <ListItem key={index}>{pack}</ListItem>
+          ))}
+        </List>
 
-        <Button></Button>
+        <Center>
+          <Button>Get started</Button>
+        </Center>
       </Box>
     </>
   );
