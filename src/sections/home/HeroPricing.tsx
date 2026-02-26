@@ -1,6 +1,7 @@
-import { HeroPricingCards } from "@/components/HeroPricingCards";
+import { PricingCards } from "@/components/PricingCards";
 import { Tags } from "@/components/Tags";
-import { Box, Center, Container, Grid, Text } from "@chakra-ui/react";
+import { pricingPackages } from "@/data/PricingData";
+import { Box, Center, Container, SimpleGrid, Text } from "@chakra-ui/react";
 
 export const HeroPricing = () => {
   return (
@@ -20,34 +21,14 @@ export const HeroPricing = () => {
           </Box>
           <Center>Monthly</Center>
           <Box></Box>
-          <Box>
-            <Grid
-              templateColumns={{ base: "repeat(1, 1fr)", lg: "repeat(3, 1fr)" }}
-              gap={6}
-              alignItems="stretch"
-            >
-              <Box>
-                <HeroPricingCards
-                  title="Personal"
-                  text="For individuals and small teams trying out for an unlimited period."
-                  cost="29"
-                />
-              </Box>
-              <Box>
-                <HeroPricingCards
-                  title="Extended"
-                  text="For individual account executives who want increased productivity."
-                  cost="49"
-                />
-              </Box>
-              <Box>
-                <HeroPricingCards
-                  title="Premium"
-                  text="For medium and large sales organizations with advanced needs."
-                  cost="99"
-                />
-              </Box>
-            </Grid>
+          <Box mt={10}>
+            <Container maxW="6xl">
+              <SimpleGrid columns={{ base: 1, md: 3 }} gap={8}>
+                {pricingPackages.map((pkg) => (
+                  <PricingCards key={pkg.name} data={pkg} />
+                ))}
+              </SimpleGrid>
+            </Container>
           </Box>
         </Container>
       </Box>

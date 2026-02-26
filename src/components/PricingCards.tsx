@@ -22,11 +22,11 @@ export const PricingCards = ({ data }: PricingProps) => {
             /month
           </Text>
         </Text>
-        <List>
+        <List.Root>
           {benefits.map((pack, index) => (
             <ListItem key={index}>{pack}</ListItem>
           ))}
-        </List>
+        </List.Root>
 
         <Center>
           <Button>Get started</Button>
