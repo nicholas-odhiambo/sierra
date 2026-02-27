@@ -9,7 +9,7 @@ type HeroPricingCards = {
 export const HeroPricingCards = ({ title, text, cost }: HeroPricingCards) => {
   return (
     <div>
-      <Box background="bg.muted" p={10} rounded="2xl">
+      <Box background="bg.muted" rounded="2xl">
         <Text fontWeight="bolder" fontSize="lg">
           {title}
         </Text>
