@@ -38,36 +38,36 @@ export const AllFeatures = () => {
               <GridItem>
                 <HeroCardFeatures
                   image=""
-                  title="Solid planning"
-                  description="Get free access to our global partner network and marketplace to recieve premium assistance. "
+                  title="Collaboration tools"
+                  description="Keep your strategic goals and planning in one place to improve employee engagement "
                 />
               </GridItem>
               <GridItem>
                 <HeroCardFeatures
                   image=""
-                  title="Solid planning"
-                  description="Get free access to our global partner network and marketplace to recieve premium assistance. "
+                  title="Data protection"
+                  description="Define each stage of work to see what's important and where things get stuck. "
                 />
               </GridItem>
               <GridItem>
                 <HeroCardFeatures
                   image=""
-                  title="Solid planning"
-                  description="Get free access to our global partner network and marketplace to recieve premium assistance. "
+                  title="Quality scores"
+                  description="Keep your strategic goals and planning in one place to improve employee engagement "
                 />
               </GridItem>
               <GridItem>
                 <HeroCardFeatures
                   image=""
-                  title="Solid planning"
-                  description="Get free access to our global partner network and marketplace to recieve premium assistance. "
+                  title="Software support"
+                  description="Define each stage of work to see what's important and where things get stuck. "
                 />
               </GridItem>
               <GridItem>
                 <HeroCardFeatures
                   image=""
-                  title="Solid planning"
-                  description="Get free access to our global partner network and marketplace to recieve premium assistance. "
+                  title="Management help"
+                  description="From the small stuff to the big picture, we organize work so teams know what to do. "
                 />
               </GridItem>
             </Grid>

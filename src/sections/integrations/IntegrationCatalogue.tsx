@@ -1,8 +1,6 @@
 import { IntergrationCards } from "@/components/IntergrationCards";
 import { Box, Container, Grid, GridItem } from "@chakra-ui/react";
 
-import asana from "../../images/asana.png";
-
 export const IntegrationCatalogue = () => {
   return (
     <>
@@ -55,7 +53,7 @@ export const IntegrationCatalogue = () => {
             <GridItem>
               {" "}
               <IntergrationCards
-                icon={asana}
+                icon=""
                 title="Project management"
                 description="Precise management, ensuring projects are executed flawlessly."
               />
