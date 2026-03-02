@@ -27,29 +27,32 @@ export const IntergrationCards = ({
             {" "}
             {icon}
           </Box>
-          <Box display="flex" flexDirection="column" h="150px" rounded="4xl">
-            <Text
-              fontWeight="semibold"
-              fontSize="2xl"
-              alignItems="center"
-              textAlign="center"
-              py={5}
-              flex="1"
-            >
-              {" "}
-              {title}
-            </Text>
-            <Text
-              color="gray.400"
-              alignItems="center"
-              textAlign="centre"
-              flex="1"
-            >
-              {description}
-            </Text>
+        </Center>
+        <Box display="flex" flexDirection="column" h="150px" rounded="4xl">
+          <Text
+            fontWeight="semibold"
+            fontSize="2xl"
+            alignItems="center"
+            textAlign="center"
+            py={5}
+            flex="1"
+          >
+            {" "}
+            {title}
+          </Text>
+          <Text
+            color="gray.400"
+            alignItems="center"
+            textAlign="centre"
+            flex="1"
+          >
+            {description}
+          </Text>
+          <Box alignItems="center" textAlign="center">
+            {" "}
             <Button>Download app</Button>
           </Box>
-        </Center>
+        </Box>
       </Box>
     </>
   );
