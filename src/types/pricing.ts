@@ -4,3 +4,9 @@ export type PricingPackage = {
   price: string;
   benefits: string[];
 };
+
+export interface PricingQuestions {
+  id: string;
+  quiz: string;
+  answer: string;
+}
