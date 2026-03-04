@@ -8,10 +8,10 @@ interface FaqProps {
 export const FaqItem = ({ items }: FaqProps) => {
   return (
     <>
-      <Accordion.Root multiple defaultValue={["b"]}>
+      <Accordion.Root multiple defaultValue={["1"]}>
         {items.map((item, index) => (
           <Accordion.Item key={index} value={item.id}>
-            <Accordion.ItemTrigger>
+            <Accordion.ItemTrigger px="3" _open={{ bg: "gray.subtle" }}>
               <Span flex="1" fontWeight="bold">
                 {item.question}
               </Span>

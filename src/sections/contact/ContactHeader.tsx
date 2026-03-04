@@ -1,4 +1,4 @@
-import { Box, Container, Text } from "@chakra-ui/react";
+import { Box, Container, Grid, GridItem, Text } from "@chakra-ui/react";
 
 export const ContactHeader = () => {
   return (
@@ -25,6 +25,24 @@ export const ContactHeader = () => {
               dedicated team will respond to your inquiries promptly.
             </Text>
           </Box>
+        </Container>
+      </Box>
+      <Box background="white">
+        <Container background="gray.200" maxW="6xl">
+          <Grid
+            templateColumns={{ base: " 1fr", md: "repeat(2, 1fr)" }}
+            gap={0}
+          >
+            <GridItem>
+              <Text> How can we help?</Text>
+              <Text>
+                {" "}
+                Have a question or feedback? Fill out the form below, and we'll
+                get back to you as soon as possible.
+              </Text>
+            </GridItem>
+            <GridItem></GridItem>
+          </Grid>
         </Container>
       </Box>
     </>
