@@ -5,7 +5,7 @@ export const ContactHeader = () => {
     <>
       <Box
         background="linear-gradient(to right,  #fd35e2, #ff791a)"
-        minH="60vh"
+        minH="50vh"
         py={{ base: "100px", lg: "150px" }}
       >
         <Container maxW="6xl">
