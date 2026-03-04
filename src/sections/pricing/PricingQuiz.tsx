@@ -1,7 +1,12 @@
+import { FaqItem } from "@/components/FaqItem";
 import { Tags } from "@/components/Tags";
-import { Box, Container, Text } from "@chakra-ui/react";
+import { FaqData } from "@/data/FaqData";
+import { Box, Container, Grid, GridItem, Text } from "@chakra-ui/react";
 
 export const PricingQuiz = () => {
+  const leftColumn = FaqData.slice(0, 3);
+  const rightColumn = FaqData.slice(3, 6);
+
   return (
     <>
       <Box background="white" py={{ base: "100px", md: "150px" }} mt={3}>
@@ -22,7 +27,19 @@ export const PricingQuiz = () => {
               regarding our products and billing processes.
             </Text>
           </Box>
-          <Box></Box>
+          <Box mt={10}>
+            <Grid
+              templateColumns={{ base: "1fr", md: "repeat(2, 1fr)" }}
+              gap={8}
+            >
+              <GridItem>
+                <FaqItem items={leftColumn} />
+              </GridItem>
+              <GridItem>
+                <FaqItem items={rightColumn} />
+              </GridItem>
+            </Grid>
+          </Box>
         </Container>
       </Box>
     </>
