@@ -1,3 +1,9 @@
+import { HelpHeader } from "@/sections/help";
+
 export const Help = () => {
-  return <div></div>;
+  return (
+    <div>
+      <HelpHeader />
+    </div>
+  );
 };
